@@ -1,0 +1,33 @@
+.projectLinks 
+{
+    position: fixed;
+    border: solid;
+
+    width: 400px;
+    height: 400px;
+
+    top: 200px;
+    left: 500px;
+}
+
+.projectInfo
+{
+    position: fixed;
+    border: solid;
+
+    width: 400px;
+    height: 400px;
+
+    top: 200px;
+    right: 500px;
+}
+
+.canvasBackground {
+    opacity: 0.2;
+    background-color: lightblue;
+}
+
+@media only screen and (max-width: 460px)
+{
+    
+}

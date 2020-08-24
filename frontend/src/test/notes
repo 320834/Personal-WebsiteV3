@@ -1,0 +1,18 @@
+let distance = Math.sqrt(Math.pow(x-(window.innerWidth/2),2) + Math.pow(y-(window.innerHeight/2),2));
+            
+console.log(distance)
+let f = 0;
+if(distance < 400)
+{
+    f = distance;
+}
+else
+{
+    f = -distance;
+}
+
+                    .style("fill",function()
+                    {
+                        let color = d3.schemeCategory10
+                        return "hsl(" + Math.random() * 360 + ",100%,50%)";
+                    })
