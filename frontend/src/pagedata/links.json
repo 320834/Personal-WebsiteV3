@@ -1,8 +1,8 @@
 [
     {
-        "title": "Greetings",
+        "title": "Welcome",
         "imgSource": "profile.jpg",
-        "description": "Hi everyone! Welcome to my personal site. Check out the left hand side for projects/info",
+        "description": "My name is Justin. Check out my projects to the left. Go to the right for more info about me",
         "link": "/",
         "project": false
     },
@@ -24,14 +24,14 @@
         "title": "About Me",
         "imgSource": "profile.jpg",
         "description": "More info about me",
-        "link": "/",
+        "link": "/about",
         "project": false
     },
     {
         "title": "Contact",
         "imgSource": "profile.jpg",
         "description": "Reach out for any inquiries",
-        "link": "/",
+        "link": "/contact",
         "project": false
     }
 ]

@@ -8,10 +8,13 @@
 .titleCon{
     align-content: center;
     text-align: center;
+    font-family: 'Arvo', serif;
 }
 
 .descCon{
     text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 18px;
 }
 
 .break{

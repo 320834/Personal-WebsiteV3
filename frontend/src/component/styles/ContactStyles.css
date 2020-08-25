@@ -1,0 +1,11 @@
+.bodyContact{
+    text-align: center;
+    align-items: center;
+    font-family: 'Arvo', serif;
+}
+
+.githubIcon {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}

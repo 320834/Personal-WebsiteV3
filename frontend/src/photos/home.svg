@@ -1,0 +1,12 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="52" width="52" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m49.50204,24.68307l-6.3506,-6.33419l0,-15.12799l-5.44426,0l0,9.6978l-12.70328,-12.67044l-24.49814,24.43482l5.8321,-0.1386l0,24.70375l37.07282,0l0,-24.56515l6.09135,0zm-24.49814,21.0319l-12.09767,0l0,-14.48051l12.09767,0l0,14.48051zm11.75338,-6.20593l-7.94966,0l0,-8.36146l7.94966,0l0,8.36146z" stroke-opacity="null" stroke-width="1.5" stroke="#000" fill="#BBBBBB"/>
+ </g>
+</svg>

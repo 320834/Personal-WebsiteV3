@@ -1,8 +1,4 @@
 import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
-
-import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
 
 import './styles/HomeStyles.css'
 
@@ -48,8 +44,6 @@ export class Home extends Component<HomeProps, HomeState>
 
     handleResize = () =>
     {
-        console.log(window.innerWidth + "\t" + window.innerHeight);
-
         let newPos = (window.innerWidth - this.state.infoCardWidth)/2;
         
         this.setState({infoCardPos : newPos});
