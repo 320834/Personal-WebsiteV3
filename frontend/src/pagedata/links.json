@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Greetings",
+        "imgSource": "profile.jpg",
+        "description": "Hi everyone! Welcome to my personal site. Check out the left hand side for projects/info",
+        "link": "/",
+        "project": false
+    },
+    {
+        "title": "D3-Force Graph",
+        "imgSource": "profile.jpg",
+        "description": "Using d3 to create force graphs",
+        "link": "/d3-force",
+        "project": true
+    },
+    {
+        "title": "UnityGame",
+        "imgSource": "unity.jpg",
+        "description": "A 3D zombie FPS game built with Unity",
+        "link": "/untitled-project",
+        "project": true
+    },
+    {
+        "title": "About Me",
+        "imgSource": "profile.jpg",
+        "description": "More info about me",
+        "link": "/",
+        "project": false
+    },
+    {
+        "title": "Contact",
+        "imgSource": "profile.jpg",
+        "description": "Reach out for any inquiries",
+        "link": "/",
+        "project": false
+    }
+]

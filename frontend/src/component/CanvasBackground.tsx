@@ -52,10 +52,8 @@ export default class CanvasBackground extends Component
     mouseMove = (e : any) => {
         this.setState({mouseX: e.clientX, mouseY: e.clientY})
     }
-    
-    //this.state.document.getElementsByClassName("canvas")[0]
+
     createBackground = () => {
-        // let document = this.document;
         let nodes : any = [];
 
         nodes.push({
@@ -82,8 +80,7 @@ export default class CanvasBackground extends Component
             .merge(nodeData)
             .style("fill",function()
             {
-                let color = d3.schemeCategory10
-                return "hsl(" + Math.random() * 360 + ",100%,50%)";
+                return "hsl(" + (160 + Math.random() * 40) + ",50%,70%)";
             })
 
         let ticked = () =>

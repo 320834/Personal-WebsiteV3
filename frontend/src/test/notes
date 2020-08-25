@@ -16,3 +16,6 @@ else
                         let color = d3.schemeCategory10
                         return "hsl(" + Math.random() * 360 + ",100%,50%)";
                     })
+
+<div className="cardCon" onMouseEnter={this.onHoverEnter} onMouseLeave={this.onHoverLeave}>
+</div>

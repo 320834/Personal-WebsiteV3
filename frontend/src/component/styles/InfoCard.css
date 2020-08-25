@@ -1,0 +1,19 @@
+.imgCon{
+    height: 200px;
+    width: 200px;
+
+    border-radius: 50%
+}
+
+.titleCon{
+    align-content: center;
+    text-align: center;
+}
+
+.descCon{
+    text-align: center;
+}
+
+.break{
+    height: 50px;
+}
