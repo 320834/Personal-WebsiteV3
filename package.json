@@ -1,0 +1,20 @@
+{
+  "name": "personal-websitev3",
+  "version": "1.0.0",
+  "description": "Third iteration of my personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd backend; npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/320834/Personal-WebsiteV3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/320834/Personal-WebsiteV3/issues"
+  },
+  "homepage": "https://github.com/320834/Personal-WebsiteV3#readme"
+}
