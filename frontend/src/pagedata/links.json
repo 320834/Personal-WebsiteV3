@@ -17,14 +17,14 @@
         "title": "Untitled-Project",
         "imgSource": "unity.jpg",
         "description": "A 3D zombie FPS game built with Unity",
-        "link": "/",
+        "link": "http://localhost:3000/unitygame.html",
         "project": true
     },
     {
         "title": "JSoundboard",
         "imgSource": "soundboard.PNG",
         "description": "Soundboard built with native javascript DOM",
-        "link": "/",
+        "link": "http://localhost:3000/soundboard.html",
         "project": true
     },
     {

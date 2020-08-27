@@ -33,7 +33,7 @@ export default class LinkCard extends Component<LinkCardProps,LinkCardState>
     }
 
     handleClick = () => {
-        if(this.props.link.includes("https") || this.props.link.includes("localhost"))
+        if(this.props.link.includes("http"))
         {
             window.open(this.props.link, "_blank");
         }
