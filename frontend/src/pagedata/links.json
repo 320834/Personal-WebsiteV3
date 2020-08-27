@@ -7,29 +7,36 @@
         "project": false
     },
     {
-        "title": "D3-Force Graph",
-        "imgSource": "profile.jpg",
-        "description": "Using d3 to create force graphs",
-        "link": "/d3-force",
+        "title": "Corona Shutdown",
+        "imgSource": "corona.PNG",
+        "description": "Tracking spread of COVID-19 using an interactive map",
+        "link": "https://www.coronashutdown.com/",
         "project": true
     },
     {
-        "title": "UnityGame",
+        "title": "Untitled-Project",
         "imgSource": "unity.jpg",
         "description": "A 3D zombie FPS game built with Unity",
-        "link": "/untitled-project",
+        "link": "/",
+        "project": true
+    },
+    {
+        "title": "JSoundboard",
+        "imgSource": "soundboard.PNG",
+        "description": "Soundboard built with native javascript DOM",
+        "link": "/",
         "project": true
     },
     {
         "title": "About Me",
-        "imgSource": "profile.jpg",
+        "imgSource": "about.svg",
         "description": "More info about me",
         "link": "/about",
         "project": false
     },
     {
         "title": "Contact",
-        "imgSource": "profile.jpg",
+        "imgSource": "mail.svg",
         "description": "Reach out for any inquiries",
         "link": "/contact",
         "project": false

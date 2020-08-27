@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Link, Redirect} from "react-router-dom";
+import {Redirect} from "react-router-dom";
 
 import './styles/LinkCard.css';
 import { Typography } from '@material-ui/core';
@@ -33,7 +33,15 @@ export default class LinkCard extends Component<LinkCardProps,LinkCardState>
     }
 
     handleClick = () => {
-        this.setState({redirect: true});
+        if(this.props.link.includes("https") || this.props.link.includes("localhost"))
+        {
+            window.open(this.props.link, "_blank");
+        }
+        else
+        {
+            this.setState({redirect: true});
+        }
+        
     }
 
     render()
