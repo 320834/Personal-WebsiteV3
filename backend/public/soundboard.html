@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<head>
+    <title>&#x5357;&apos;s and Justin&apos;s Amazing Sound Project</title>
+    <link rel="stylesheet" type="text/css" href="public/stylesheets/soundStyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Tajawal" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head><audio id="baseSoundOne" src="public/assets/clap.wav"></audio><audio id="baseSoundTwo" src="public/assets/snap.wav"></audio><audio id="baseSoundThree" src="public/assets/button.wav"></audio><audio id="baseSoundFour" src="public/assets/locker.wav"></audio><audio id="baseSoundFive"
+    src="public/assets/cardboard.wav"></audio><audio id="baseSoundSix" src="public/assets/paper.wav"></audio><audio id="baseSoundSeven" src="public/assets/bin.wav"></audio><audio id="baseSoundEight" src="public/assets/sponge.wav"></audio>
+<div id="top"></div>
+<div style="height: 50px"></div>
+<div class="container" style="display: flex; flex-wrap: wrap">
+    <div class="col-3"></div>
+    <div class="col-6" style="display:flex">
+        <h1>Have you considered that sounds around us can be musical?</h1>
+    </div>
+    <div class="col-3"></div>
+    <div style="height: 40px"></div>
+    <div class="col-3"></div>
+    <div class="col-6" style="display:flex">
+        <h2>Follow our project, and musicalize your surroundings!</h2>
+    </div>
+    <div class="col-3"></div>
+    <div style="height: 10px"></div>
+    <div class="col-2"></div>
+    <div class="col-2">
+        <div class="crop"><img id="clap" onclick="playClap()" style="border:solid; border-width:5px; border-color:#F29B00" src="public/assets/img/clap.jpg" alt="clap"></div>
+    </div>
+    <div class="col-2">
+        <div class="crop"><img id="snap" onclick="playSnap()" style="border:solid; border-width:5px; border-color:#395043" src="public/assets/img/snap.jpg" alt="snap"></div>
+    </div>
+    <div class="col-2">
+        <div class="crop"><img id="button" onclick="playButton()" style="border:solid; border-width:5px; border-color:#FFFCFD" src="public/assets/img/button.jpg" alt="button"></div>
+    </div>
+    <div class="col-2">
+        <div class="crop"><img id="locker" onclick="playLocker()" style="border:solid; border-width:5px; border-color:#0E6681" src="public/assets/img/locker.jpg" alt="locker"></div>
+    </div>
+    <div class="col-2"></div>
+    <div style="height: 40px"></div>
+    <div class="col-2"></div>
+    <div class="col-2">
+        <div class="crop"><img id="cardboard" onclick="playCard()" style="border:solid; border-width:5px; border-color:#D3AF7C" src="public/assets/img/cardboard.jpg" alt="cardboard"></div>
+    </div>
+    <div class="col-2">
+        <div class="crop"><img id="paper" onclick="playPaper()" style="border:solid; border-width:5px; border-color:#FE7F2D" src="public/assets/img/paper.jpg" alt="paper"></div>
+    </div>
+    <div class="col-2">
+        <div class="crop"><img id="bin" onclick="playBin()" style="border:solid; border-width:5px; border-color:#3158FF" src="public/assets/img/bin.jpg" alt="bin"></div>
+    </div>
+    <div class="col-2">
+        <div class="crop"><img id="sponge" onclick="playSponge()" style="border:solid; border-width:5px; border-color:#3BFFE1" src="public/assets/img/sponge.jpg" alt="sponge"></div>
+    </div>
+    <div class="col-2"></div>
+    <div style="height: 150px"></div>
+    <div class="col-3"></div>
+    <div class="col-6" style="display:flex">
+        <div class="col-3"></div><a class="btn btn-primary col-6" id="scrollDown" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Click Here To Start</a>
+        <div class="col-3"></div>
+    </div>
+    <div class="col-3"></div>
+</div>
+<div class="collapse" id="collapseExample">
+    <div class="container" style="display: flex">
+        <div class="col-2"></div>
+        <div class="col-8" id="content"><br>
+            <div style="display:flex">
+                <div class="col-4"></div>
+                <h1 class="col-4"></h1>
+                <div class="col-4"></div>
+            </div><br>
+            <div style="display:flex">
+                <div class="col-4"></div>
+                <h5 class="col-4">Quick Start</h5>
+                <div class="col-4"></div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap">
+                <p class="col-4">1. Click On grey tiles. You should see the tile change color</p>
+                <p class="col-4">2. Press Play/Resume Button</p>
+                <p class="col-4">Tips: You can click and drag on the grey tiles.</p>
+            </div><br>
+            <div style="display: flex">
+                <div class="col-2"></div><button class="col-2 btn btn-success" id="start" data-toggle="tooltip" data-placement="top" title="Press To Play Or Resume Beat">Play/Resume</button>
+                <div class="col-1"></div><button class="col-2 btn btn-danger" id="stop" data-toggle="tooltip" data-placement="top" title="Press To Stop Beat">Stop</button>
+                <div class="col-1"></div><button class="col-2 btn btn-warning" id="reset" data-toggle="tooltip" data-placement="top" title="Press To Reset Grey Tiles">Reset</button>
+                <div class="col-2"></div>
+            </div><br>
+            <div style="display: flex">
+                <div class="col-3"></div><button class="btn col-3"><b>Adjust Speed:</b></button>
+                <p class="col-1"></p><input class="col-3" id="slider" type="range" min="1" max="10">
+                <div class="col-3"></div>
+            </div><br>
+            <div id="board"></div><br><br></div>
+        <div class="col-2"></div>
+    </div>
+</div>
+<div class="col-12" style="height: 1px"></div>
+<p id="bottom"></p>
+<script type="text/javascript" src="public/javascript/soundScript.js"></script>
