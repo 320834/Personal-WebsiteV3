@@ -60,7 +60,7 @@ export default class About extends Component<{},AboutState>
         }
         else
         {
-            bodyContent = <object width="1000px" height="800px" data={require("../../resume/test.pdf")} type="application/pdf">
+            bodyContent = <object width="1000px" height="800px" data={require("../../resume/JustinC_Resume.pdf")} type="application/pdf">
                 <embed  src={require("../../resume/test.pdf")} type="application/pdf" />
             </object>
         }
