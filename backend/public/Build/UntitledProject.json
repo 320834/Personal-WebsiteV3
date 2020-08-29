@@ -1,7 +1,7 @@
 {
 "companyName": "PandaGames",
 "productName": "Untitled Project",
-"productVersion": "0.1",
+"productVersion": "0.2",
 "dataUrl": "UntitledProject.data.unityweb",
 "wasmCodeUrl": "UntitledProject.wasm.code.unityweb",
 "wasmFrameworkUrl": "UntitledProject.wasm.framework.unityweb",
