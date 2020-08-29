@@ -28,9 +28,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api', indexRouter);
 
 //Route for react build
-app.use('/static', express.static(path.join(__dirname, '../frontend/build/static')));
+app.use('/static', express.static(path.join(__dirname, '/build/static')));
 app.get('*', function(req, res, next) {
-  res.sendFile('index.html', {root: path.join(__dirname, "../frontend/build")});
+  res.sendFile('index.html', {root: path.join(__dirname, "/build")});
 });
 
 // catch 404 and forward to error handler
